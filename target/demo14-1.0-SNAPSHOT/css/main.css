@@ -1,0 +1,98 @@
+/* =======================
+   Reset cơ bản
+   ======================= */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.5;
+}
+
+/* =======================
+   Container chung
+   ======================= */
+.container, .thanks-container {
+    width: 400px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Container cho thanks (to hơn một chút) */
+.thanks-container {
+    width: 500px;
+    background: #eafaf1;
+    padding: 30px;
+    text-align: center;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 { color: #333; }
+h2 { color: #2e7d32; }
+
+/* =======================
+   Form chung
+   ======================= */
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #555;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form input[type="checkbox"],
+form input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* =======================
+   Nút bấm
+   ======================= */
+form input[type="submit"],
+button, .btn {
+    width: 100%;
+    padding: 10px;
+    background: #00796b;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form input[type="submit"]:hover,
+button:hover,
+.btn:hover {
+    background: #005a46;
+}
+
+/* =======================
+   Văn bản trong thanks
+   ======================= */
+.thanks-container p {
+    font-size: 16px;
+    color: #444;
+    margin: 8px 0;
+}
